@@ -15,6 +15,7 @@ Instalação
 Clone o repositório do projeto:
 
 git clone <URL_DO_REPOSITORIO>
+
 cd <NOME_DO_PROJETO>
 
 Instale as dependências do projeto:
@@ -28,10 +29,15 @@ cp .env.example .env
 Configure o .env, definindo os valores para conexão com o banco de dados:
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=nome_do_banco
+
 DB_USERNAME=usuario
+
 DB_PASSWORD=senha
 
 Execute as migrações do banco de dados:
